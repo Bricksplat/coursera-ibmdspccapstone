@@ -2,13 +2,22 @@ Neighborhood Battle 1: The Description
 
 1. Problem
 
-Someone would like to open a new buffet restaurant in a neighborhood in Toronto, Ontario, Canada. They do not want to have too much competition in the new area primarily in the way of other buffet restaurants nearby. Another possible consideration is the number of other restaurants of any kind nearby or the cost of the neighborhood. The restaurant will open but the neighborhood is not yet decided. The target audience for this particular problem would be anyone looking to see good locations for their new restaurants.
+Open a new buffet restaurant but where is a good spot for it?
+
+Someone would like to open a new buffet restaurant in a neighborhood in Toronto, Ontario, Canada. They do not want to have too
+much competition in the new area primarily in the way of other buffet restaurants nearby. Another possible consideration is the
+number of other restaurants of any kind nearby or the cost of the neighborhood. The restaurant will open but the neighborhood is
+not yet decided. The target audience for this particular problem would be anyone looking to see good locations for their new
+restaurant.
 
 2. Solution
 
-Using the Foursquare API will allow for fairly detailed data about neighborhoods in Toronto, Ontario, Canada. This data includes information about the local venues which can be cut down to give information on the number and kind of restaurant venues in a chosen area. This knowledge will help guide the decision. Datasets concerning other factors such as location costs may also be used. For example, if all things are equal in the way of restaurant competition, location costs may tip the odds. The reverse is true as well.
+Using the Foursquare API will allow for fairly detailed data about neighborhoods in Toronto, Ontario, Canada. This data includes
+information about the local venues which can be cut down to give information on the number and kind of restaurant venues in a chosen
+area. This knowledge will help guide the decision. Datasets concerning other factors such as location costs may also be used. For
+example, if all things are equal in the way of restaurant competition, location costs may tip the odds. The reverse is true as well.
 
-Example of data returned from the Foursquare API:
+Example of data returned from the Foursquare API after some cleaning:
 
 Neighborhood
 Latitude
@@ -21,9 +30,11 @@ Venue Category
 Heatmap of Toronto real estate prices:
 https://www.canadianbusiness.com/blogs-and-comment/check-out-this-heat-map-of-toronto-real-estate-prices/
 
-The Foursquare data will be used to create a Folium visual to show where relevant venues are located in Toronto. This visual will be compared with the real estate price heatmap. With this comparison, other factors may require consideration and will be added as needed. The final result will be a more qualitative recommendation rather than a purely quantitative one.
+The Foursquare data will be used to create a Folium visual to show where relevant venues are located in Toronto. This visual will
+be compared with the real estate price heatmap. With this comparison, other factors may require consideration and will be added as
+needed. The final result will be a more qualitative recommendation rather than a purely quantitative one.
 
 
 The stated location may or may not be used in the final assignment.
 This data may or may not be used in the final assignment.
-
+Additional data not mentioned here may or may not be used in the final assignment.
